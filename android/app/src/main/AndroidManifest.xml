@@ -1,6 +1,10 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <!-- xmlns:tools="http://schemas.android.com/tools"> -->
     <!-- Permission pour l'overlay -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions" /> -->
+
     <application
         android:label="plugin_vinted"
         android:name="${applicationName}"

@@ -9,12 +9,4 @@
         android:layout_height="100dp"
         android:background="@drawable/circle_background"
         android:layout_gravity="center"/>
-
-    <TextView
-        android:id="@+id/statusText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="@android:color/white"
-        android:textSize="18sp" />
 </FrameLayout>
